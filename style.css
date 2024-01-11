@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1565313086528-7a34c2ecb1be?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyaXBvc2ElMjBtb3JhZGF8ZW58MHx8MHx8fDA%3D);
+    background-attachment: fixed;
+    backdrop-filter: blur(3px);
+    background-size: cover;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.navbar{
+    display: flex;
+    margin-right: 0px;
+}
+
+.logo{
+    margin-left: 10px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a{
+    display: block;
+    padding: 35px 20px;
+    color: rgb(165, 86, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navbar a:hover{
+    background: #ce7fff4b;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height:50vh !important;
+
+}
+
+.title{
+    margin-bottom: 35px;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(165, 86, 255);
+    font-family: fantasy;
+}
+p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(165, 86, 255);
+    padding: 0 100px;
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black;
+}
+li{
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: rgb(165, 86, 255);
+    padding: 0 100px;
+    text-shadow: 1px  0px 0px black,
+    0px  1px 0px black,
+   -1px  0px 0px black,
+    0px -1px 0px black; 
+}
+.sau{
+    padding: 30px;
+    height: auto;
+    background: #000000;
+}
+@media (max-width: 768px) {
+    .title{
+        margin-bottom: 0;
+        font-size: 40px; 
+    }
+    .sau{
+        height: 250vh;     
+    }
+    .navbar{
+        display: flex;
+    }
+}
